@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+.login {
+    width: 30%;
+
+}
+
+.login figure {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login figure img {
+    width: 15vw;
+}
+
+.login img {
+    width: 5vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #2C2B2B;
+}
+
+input {
+    background-color: #e8e6e6;
+    height: 3vw;
+    border: none;
+    width: 75%;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    position: relative;
+    bottom: 25%;
+    left: 5%;
+    text-transform: capitalize;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+
+  
+}
+
+.socialMedia figure{
+  width: 7vw;
+  height: 6vh;
+  border-radius: 5px;
+    
+}
+
+.socialMedia div{
+    width: 7vw;
+    height: 6vh;
+    border-radius: 5px;
+}
+
+.icones img{
+    width: 2vw;
+    height: 4vh;
+}
+.facebook{
+
+    background-color: #2051ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.socialMedia{
+    display: flex;
+    gap: 10px;
+    width: 74%;
+    margin-top: 20px;
+    margin-left: 74px;
+}
+
+.socialMedia img{
+    width: 30px;
+}
+
+.iconsButtonFacebook{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #2051ff;
+}
+
+.iconsButtonGoogle{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #8a0000;
+}
+
+.iconsButtonApple{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+
+};
+
+.keepLogin{
+    display: flex;
+}
+
+.keepLogin input{
+    width: 1vw;
+    position: relative;
+    left: 13%;
+}
+
+.keepLogin label{
+    position: relative;
+    left: 15%;
+    bottom: 22px;
+}
+
+.entry{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entry button{
+    background-color: #FF002E36;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+}
+
+.entry button img{
+    width: 75px;
+    height: 70px;
+}
+
+.entry a{
+    text-decoration: none;
+    color: #A6A6A6;
+}
+
+.entry p{
+    margin-top: 1vh;
+}
