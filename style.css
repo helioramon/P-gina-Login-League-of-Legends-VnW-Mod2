@@ -161,17 +161,28 @@ input::placeholder {
     align-items: center;
 }
 
-.entry button{
-    background-color: #FF002E36;
+.red{
+    background-color: #FF002E;
     border: none;
     border-radius: 10px;
-    margin-bottom: 2vh;
+    position: relative;
 }
+
+
+.entry button{
+    background-color: #ffc9d3;
+    border: none;
+    border-radius: 10px;
+    height: 71px;
+
+}
+
 
 .entry button img{
     width: 75px;
     height: 70px;
 }
+
 
 .entry a{
     text-decoration: none;
